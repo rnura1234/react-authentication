@@ -19,7 +19,7 @@ const AuthForm = () => {
   };
   const submitHandler = (e) => {
     e.preventDefault();
-    const enteredName = nameRef.current.value; 
+    const enteredName = nameRef?.current?.value; 
     const enteredEmail = emailRef.current.value;
     const enteredPass = passwordRef.current.value;
     let url;
